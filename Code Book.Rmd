@@ -16,7 +16,8 @@ output: html_document
 ## Description of variables in run_analysis.R
 
 
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-x_data, y_data and subject_data merge the previous datasets to further analysis.
-features contains the correct names for the x_data dataset, which are applied to the column names stored in
+X_training, y_training, x_testing, y_testing, subject_training and subject_testinig represent the data from the downloaded datasets.
+all_training, all_testing, All_data, activity_names merge the previous datasets so we can proceed with cleaning the dataset.
+features and activity_labels bring in their respective datasets. 
+
 
